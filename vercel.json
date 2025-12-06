@@ -10,5 +10,16 @@
       "src": "/(.*)",
       "dest": "streamlit_app.py"
     }
-  ]
+  ],
+  "functions": {
+    "streamlit_app.py": {
+      "excludeFiles": [
+        "__pycache__/**",
+        "**/*.pyc",
+        "**/*.sqlite3",
+        "**/tests/**",
+        "*.cache"
+      ]
+    }
+  }
 }
