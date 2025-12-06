@@ -8,7 +8,7 @@ st.title("🤖 AI/ML Expert Chatbot (Gemini Powered)")
 
 # Configure Gemini API Key
 # Static key provided by user
-API_KEY = "AIzaSyCM9AsiJd0Ddy-HZwgdDvFyi04r62Mex-w"
+API_KEY = "AIzaSyDubshFiys0wn3tiSmIiQRac2ESysxnJps"
 genai.configure(api_key=API_KEY)
 
 # System Prompt with Guardrails
